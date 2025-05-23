@@ -1,4 +1,4 @@
-import { Welcome } from "../welcome/welcome";
+
 
 export function meta() {
   return [
@@ -8,5 +8,12 @@ export function meta() {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div>
+      <h1>Welcome to React Router</h1>
+      <p>
+        To get started, edit <code>app/routes/home.jsx</code> and save to reload.
+      </p>
+    </div>
+  );
 }
